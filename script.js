@@ -87,7 +87,7 @@ async function load() {
         blogall.forEach((element) => {
             let card = document.createElement("div");
             card.className = "cards";
-            card.innerHTML = '<p>${element.id}</p>';
+            card.innerHTML = `<p>${element.id}</p>`;
             let cat = element.category || "";
             switch (cat) {
                 case "Business":
