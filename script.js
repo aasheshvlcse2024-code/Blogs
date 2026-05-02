@@ -124,7 +124,7 @@ async function load() {
                     card.innerHTML += "<img src = './images/travel.png' alt='image' height='200px' width='300px'></img>";
                     break;
             }
-            card.innerHTML += '<h1>${element.title}</h1>';
+            card.innerHTML += `<h1>${element.title}</h1>`;
             card.onclick = ()=>{
                 document.getElementById("model-title").innerHTML = element.title;
                 document.getElementById("model-content").innerHTML = element.content;
